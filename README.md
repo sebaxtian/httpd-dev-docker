@@ -4,6 +4,9 @@ Repositorio Docker HTTP de Apache para ejecutar aplicaciones web en ambiente de 
 ## HTTTP Apache Server
 Este contenedor está construido utilizando la imagen oficial `httpd:alpine` la cual está basada en la distribución [Alpine Linux](https://alpinelinux.org/). Esto hace que sea más pequeño y más eficiente en recursos que las distribuciones tradicionales de GNU/Linux.
 
+#### Docker Hub Oficial Apache HTTP Server
+Ver [httpd](https://hub.docker.com/_/httpd/)
+
 # Instalación
 
 Antes de realizar la instalación del contenedor, se debe copiar los archivos del proyecto web dentro del directorio `/app/` el cual se encuentra en el directorio de especificación del contenedor en Docker `httpd-dev-docker`.
